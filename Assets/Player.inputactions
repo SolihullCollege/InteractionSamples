@@ -1,0 +1,71 @@
+{
+    "name": "Player",
+    "maps": [
+        {
+            "name": "GamePad",
+            "id": "0d198093-e791-4620-99c5-56d8dbcb2eea",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "d9318a76-325c-4039-96bc-ce5232322254",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "38764e02-6df1-440a-a115-8b88ad5ad748",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "5890cb50-956f-4d90-87f3-fa7f57580b2a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "08f038ee-626e-460a-bed0-a9589ea43a5b",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "039c1e54-25b1-4f3c-b7cb-e4f672ac02df",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c6f5854-01d0-48a7-9ad3-d82e440b8482",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
